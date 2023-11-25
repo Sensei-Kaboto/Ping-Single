@@ -97,7 +97,7 @@ input{
     background: #fff;
     box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.00);
     border: 1px solid #C2D3FF;
-    color:var(--Pale__Blue);
+    color:var(--Gray);
     font-size: 1.2rem;
     font-weight: 300;
     text-align: left;
@@ -113,6 +113,13 @@ input{
     margin-bottom: 70px ;
     margin: 10px auto 40px auto;
     box-shadow: 0px 5px 10px 2px rgba(76, 123, 243, 0.23);
+    color: #fff;
+}
+
+.bt__Notify:hover{
+    background-color: var(--Pale__Blue);
+    transition: color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease; 
+    box-shadow: #000;
 }
 
 
@@ -137,7 +144,7 @@ ion-icon{
 
 ion-icon:hover{
     fill:var(--blue);
-    transition: .5s;
+    transition: fill 0.5s ease;
 
 }
 
