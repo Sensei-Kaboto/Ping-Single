@@ -10,6 +10,7 @@ btn.addEventListener('click', () =>{
         errorMessage.style.display = 'block';
     }else{
         input.style.border = '1px solid  green';
+        errorMessage.style.display = 'none';
     }
 })
 
