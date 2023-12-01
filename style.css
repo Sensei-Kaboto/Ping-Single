@@ -98,7 +98,7 @@ main{
     padding: 0px;
 }
 
-input{
+input,.bt__Notify{
     border-radius: 28px;
     flex-shrink: 0;
     width: 270px;
@@ -142,9 +142,7 @@ input{
 
 }
 
-.sectionThree{
 
-}
 
 ion-icon{
     height: 32px;
@@ -167,7 +165,7 @@ footer{
 }
 
 .pStyle{
-    /* display: none;  */
+    display: none; 
     font-family: Libre Franklin;
     font-size: 12px;
     font-style: italic;
@@ -208,7 +206,7 @@ footer{
         margin-bottom: 40px;
     }
     
-    input{
+    input,.bt__Notify{
         font-size: 1.6rem;
         width: 421px;
         height: 55px;
